@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+header {
+    position: static;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header a {
+    color: black;
+    size: 16px;
+    font-family: "poppins-regular";
+    text-decoration: none;
+}
+
+header .botao-logar {
+    width: 115px;
+    height: 45px;
+    background-color: #B51D44;
+    size: 16px;
+    font-family: "poppins-regular";
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .proximos-eventos {
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .proximos-eventos .layout-box-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .proximos-eventos h1 {
+    font-family: "poppins-regular";
+    color: black;
+    size: 18px;
+}
+
+main .proximos-eventos hr {
+    color: #B51D44;
+    height: 2px;
+    width: 125px;
+}
+
+
+main .proximos-eventos h2 {
+    font-family: "poppins-regular";
+    color: black;
+    size: 18px;
+}
+
+main .proximos-eventos p {
+    font-family: "poppins-regular";
+    color: black;
+    size: 16px;
+}
+
+main .visao {
+    background-color: #B51D44;
+    height: 558px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .visao hr {
+    color: #B51D44;
+    height: 2px;
+    width: 125px;
+}
+
+main .visao h1 {
+    font-family: "poppins-regular";
+    size: 18px;
+}
+
+main .visao p {
+    font-family: "poppins-regular";
+    size: 16px;
+}
+
+main .contato {
+    height: 458px;
+}
+
+main .contato h1 {
+    font-family: "poppins-regular";
+    size: 18px;
+    color: black;
+}
+
+main .contato p {
+    font-family: "poppins-regular";
+    size: 16px;
+    color: black;
+}
+
+footer {
+    font-family: "poppins-regular";
+    size: 16px;
+    color: black;
+}
