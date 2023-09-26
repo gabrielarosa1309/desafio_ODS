@@ -85,7 +85,7 @@ main .visao {
     height: 558px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 main .visao hr {
@@ -124,4 +124,6 @@ footer {
     font-family: "poppins-regular";
     size: 16px;
     color: black;
+    display: flex;
+    justify-content: center;
 }
